@@ -112,6 +112,9 @@ html, body {
   @media (max-width: 730px) {
     .twitter-tweet-rendered {
       width: 32rem !important; } }
+  @media (max-width: 350px) {
+    .twitter-tweet-rendered {
+      width: 30rem !important; } }
 
 .line {
   background: #1F364D;
@@ -133,12 +136,18 @@ video {
   @media (max-width: 730px) {
     video {
       width: 32rem; } }
+  @media (max-width: 350px) {
+    video {
+      width: 30rem !important; } }
 
 .video1 {
   width: 55rem; }
   @media (max-width: 730px) {
     .video1 {
       width: 35rem; } }
+  @media (max-width: 350px) {
+    .video1 {
+      width: 30rem !important; } }
 
 img {
   width: 69.3rem;
@@ -148,6 +157,9 @@ img {
   @media (max-width: 700px) {
     img {
       width: 92%; } }
+  @media (max-width: 350px) {
+    img {
+      border: 0.4rem solid #1F364D; } }
 
 .interview {
   display: flex;
@@ -223,6 +235,9 @@ img {
   @media (max-width: 730px) {
     .jut {
       font-size: 1.7rem; } }
+  @media (max-width: 350px) {
+    .jut {
+      font-size: 1.6rem !important; } }
   .jut-num {
     color: #D0021B; }
   .jut-text {
@@ -276,6 +291,9 @@ img {
     @media (max-width: 372px) {
       .opening h2 {
         font-size: 1.9rem; } }
+    @media (max-width: 350px) {
+      .opening h2 {
+        font-size: 1.8rem !important; } }
     .opening h2 a {
       cursor: pointer;
       transition: all 0.2s; }
@@ -306,6 +324,9 @@ img {
     @media (max-width: 372px) {
       .text h2 {
         font-size: 1.9rem; } }
+    @media (max-width: 350px) {
+      .text h2 {
+        font-size: 1.8rem !important; } }
   .text__center {
     margin: 0 2rem; }
     @media (max-width: 730px) {
