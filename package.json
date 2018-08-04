@@ -12,8 +12,8 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "9.x.x",
-    "yarn": "1.6.0",
+    "node": "10.7.0",
+    "yarn": "1.7.0",
     "npm": "5.6.0"
   },
   "author": "",
@@ -51,11 +51,14 @@
     "body-parser": "^1.18.2",
     "cookie-session": "^2.0.0-beta.3",
     "date-fns": "^1.29.0",
+    "debounce": "^1.1.0",
     "dotenv": "^6.0.0",
     "email-templates": "^4.0.1",
     "express": "^4.16.2",
     "express-static-gzip": "^0.3.0",
+    "loadash": "^1.0.0",
     "lodash": "^4.17.10",
+    "lodash.debounce": "^4.0.8",
     "mongoose": "^4.13.7",
     "mongoose-sanitizer": "^1.0.0",
     "mongoose-url-slugs": "^1.0.2",
@@ -68,6 +71,7 @@
     "pug": "^2.0.0-rc.4",
     "twit": "^2.2.11",
     "twitter": "^1.7.1",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "zenscroll": "^4.0.2"
   }
 }

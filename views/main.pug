@@ -1,8 +1,3 @@
-include mixins/header
-include mixins/addIdea
-include mixins/nav
-include mixins/ph
-
 doctype html
 html(lang='en')
   head
@@ -18,27 +13,14 @@ html(lang='en')
     meta(name='msapplication-TileColor', content='#ff177b')
     meta(name='theme-color', content='#ff177b')
     block head
-      title Ideas Are Worthless | Post your idea. Get feedback
-      meta(property='og:title', content='Ideas Are Worthless. Execution is everything.')
-      meta(name="description", content="Post your idea. Get feedback. See if it's worthless.")
-      meta(property='og:description', content="Post your idea. Get feedback. See if it's worthless.")
-      meta(property='og:url', content='https://ideasareworthless.io/')
-      meta(property="og:image", content="https://ideasareworthless.io/images/twitter-card.png")
+      title PHONE ME KANYE WEST
+      meta(property='og:title', content='Phone Me Kanye West')
+      meta(name="description", content="Phone Me Kanye West. I've Got Ideas. +44 78570 43724 ")
+      meta(property='og:description', content="Phone Me Kanye West. I've Got Ideas. +44 78570 43724")
+      meta(property='og:url', content='https://http://phonemekanyewest.com')
+      meta(property="og:image", content="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn1.jpg")
       meta(name="twitter:creator", content="@harrydry")
-    script.
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-P9RB5ST');
     body
-      noscript
-        iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-P9RB5ST", height="0", width="0", style="display:none;visibility:hidden")
-      +ph()
-      +nav()
-      .outerContainer
-        +addIdea()
-      +header()
       block content
   block scripts
     script(src="/dist/bundle.js")

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" class="playButton" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>play_round</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Copy" transform="translate(-162.000000, -121.000000)">
+            <g id="play_round" transform="translate(162.000000, 121.000000)">
+                <path d="M34.56,18 C34.56,8.85416454 27.1458355,1.44 18,1.44 C8.85416454,1.44 1.44,8.85416454 1.44,18 C1.44,27.1458355 8.85416454,34.56 18,34.56 C27.1458355,34.56 34.56,27.1458355 34.56,18 Z M0,18 C0,8.0588745 8.0588745,0 18,0 C27.9411255,0 36,8.0588745 36,18 C36,27.9411255 27.9411255,36 18,36 C8.0588745,36 0,27.9411255 0,18 Z" id="Oval-30" fill-rule="nonzero"></path>
+                <path d="M15.7300502,24.5701897 C13.8025487,25.6599136 12.24,24.7579788 12.24,22.5438084 L12.24,13.7113089 C12.24,11.5024455 13.8049027,10.5965345 15.7300502,11.6849275 L23.6357135,16.154439 C25.563215,17.2441629 25.560861,19.0122852 23.6357135,20.1006783 L15.7300502,24.5701897 Z" id="Triangle-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
