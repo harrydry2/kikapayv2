@@ -14,8 +14,6 @@ block content
   .container
     .line
     .opening
-      h2.opening__center Kanye starts tweeting
-        //- a(href="https://yeezy.dating" target="_blank")   Yeezy.Dating
     blockquote.twitter-tweet(data-lang='en')
       p(lang='en', dir='ltr')
         | Yeezy is based in Calabasas but will also be setting up offices in New York London and Wyoming
@@ -36,21 +34,21 @@ block content
         br
         |  Phone Me Kanye West.
         br
-        |  London. New York. Wyoming.
+        |  New York. London. Wyoming.
       h2 💡
-    +jut("06", "New York")
-    img.bamn1(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn1.jpg")
-    +jut("07", "Wyoming")
+    +jut("03", "New York")
     img.bamn2(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn3.jpg")
-    +jut("08", "London")
+    +jut("04", "London")
+    img.bamn1(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn1.jpg")
+    +jut("05", "Wyoming")
     img.bamn3(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn2.jpg")
-    //- +jut("09", "Press")
-    //- +press()
-    +jut("09", "Interview")
+    +jut("06", "Press")
+    +press()
+    +jut("07", "Radio")
     .interview
       .interview__icon!=icon('playButton')
       .interview__text
-    +jut("10", "End")
+    +jut("08", "End")
     video.video1(src=`https://media.giphy.com/media/l0MYuLUvo8GNRrhss/giphy.mp4` playsinline loop muted autoplay)
     .ender
 
