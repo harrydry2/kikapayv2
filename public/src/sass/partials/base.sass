@@ -20,6 +20,7 @@ html,body
 .twitter-tweet-rendered
   transform: scale(1) !important
   width: 38rem !important
+  // width: 35rem !important
   margin: 0 !important
   @media (max-width: 730px)
     width: 32rem !important
@@ -97,18 +98,17 @@ img
 // hd
 
 .hd
-  display: none
+  display: flex
   align-items: center
   position: fixed
   right: 0
   bottom: 0
   border-top-left-radius: 5px
-  border-top-right-radius: 5px
   padding: 7px 12px 7px 12px
   border-top: 1px solid #efefef
   border-left: 1px solid #efefef
   cursor: pointer
-  z-index: 1007
+  z-index: 4
   background-color: white
   @media (max-width: 750px)
     display: none
@@ -123,19 +123,23 @@ img
     color: #333
 
 .ender1
-  height: 11rem
+  display: none
+  @media (max-width: 750px)
+    display: block
+    height: 11rem
+
 
 .byhd
+  display: none
   background: $bg
   z-index: 2
   color: white
-  font-size: 2rem
-  border: 0.6rem solid $line
+  font-size: 1.6rem
   padding: 2rem
   font-weight: 600
   transition: all 0.2s
-  @media (max-width: 900px)
-    font-size: 1.6rem
+  @media (max-width: 700px)
+    display: block
   &:hover
     color: $red
     transition: all 0.2s
