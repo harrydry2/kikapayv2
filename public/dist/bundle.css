@@ -214,7 +214,26 @@ img {
     font-size: 1.4rem;
     color: #333; }
 
-.ender {
+.ender1 {
+  height: 11rem; }
+
+.byhd {
+  background: #14233c;
+  z-index: 2;
+  color: white;
+  font-size: 2rem;
+  border: 0.6rem solid #1F364D;
+  padding: 2rem;
+  font-weight: 600;
+  transition: all 0.2s; }
+  @media (max-width: 900px) {
+    .byhd {
+      font-size: 1.6rem; } }
+  .byhd:hover {
+    color: #D0021B;
+    transition: all 0.2s; }
+
+.ender2 {
   height: 11rem;
   width: 100%;
   background: #14233c;
