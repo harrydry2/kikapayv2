@@ -2,6 +2,7 @@ extends main
 
 include mixins/jut
 include mixins/press
+include mixins/front
 
 block content
   audio.audio(preload="auto")
@@ -9,17 +10,12 @@ block content
   a.hd(href="https://twitter.com/harrydry" target="_blank")
     img.hd__img(src="https://s3.eu-west-2.amazonaws.com/lifeishappening/harrydry.png")
     .hd__text by harrydry
+  +front()
   .container
     .line
     .opening
-      h2.opening__center I launch
-        a(href="https://yeezy.dating" target="_blank")   Yeezy.Dating
-        br
-        |  24 hours later Kanye starts tweeting
-        br
-        |  I see an opportunity
-        br
-        | This is what happens next
+      h2.opening__center Kanye starts tweeting
+        //- a(href="https://yeezy.dating" target="_blank")   Yeezy.Dating
     blockquote.twitter-tweet(data-lang='en')
       p(lang='en', dir='ltr')
         | Yeezy is based in Calabasas but will also be setting up offices in New York London and Wyoming
@@ -36,27 +32,12 @@ block content
     +jut("02", "Idea")
     .text
       h2.text__lightbulb 💡
-      h2.text__center Phone Me Kanye West
+      h2.text__center 3 Billboards.
         br
-        |  I've Got Ideas
-        br
-        |  +44 78570 43724
-      h2 💡
-    +jut("03", "How")
-    .text
-      h2.text__lightbulb 🔥
-      h2.text__center 3 Billboards
+        |  Phone Me Kanye West.
         br
         |  London. New York. Wyoming.
-      h2 🔥
-    +jut("04", "I Cant do it")
-    video(src=`https://media.giphy.com/media/3oz8y0bx23FDPCNoEU/giphy.mp4` playsinline loop muted autoplay)
-    +jut("05", "I'm gonna do it")
-    blockquote.twitter-tweet(data-lang='en')
-      p(lang='en', dir='ltr') What would you do today if you are not afraid of the consequences of failure?
-      | — KANYE WEST (@kanyewest)
-      a(href='https://twitter.com/kanyewest/status/990695290301657090?ref_src=twsrc%5Etfw') April 29, 2018
-    script(async='', src='https://platform.twitter.com/widgets.js', charset='utf-8')
+      h2 💡
     +jut("06", "New York")
     img.bamn1(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn1.jpg")
     +jut("07", "Wyoming")

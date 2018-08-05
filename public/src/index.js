@@ -36,3 +36,18 @@ if (window.innerWidth < 730) {
   bamn3.src =
     "https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamnmob2.jpg";
 }
+
+const bIMG = $(".front__img");
+const bText = $(".front__label");
+const textArray = [
+  "Times Square — New York",
+  "Holborn — London",
+  "Casper — Wyoming"
+];
+var frontNum = 1;
+
+setInterval(() => {
+  bIMG.style.backgroundImage = `url(https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn${frontNum}.jpg)`;
+  bText.innerText = textArray[`${frontNum - 1}`];
+  frontNum === 3 ? (frontNum = 1) : frontNum++;
+}, 3500);

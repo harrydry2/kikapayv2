@@ -1,0 +1,62 @@
+.front
+  height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  &__img
+    background-image: url(https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn1.jpg)
+    position: absolute
+    height: 100%
+    width: 100%
+    background-size: cover
+    background-position: 50%
+    opacity: 0.25
+    transition: all 1s
+  &__br
+    display: none
+    @media (max-width: 730px)
+      display: block
+      line-height: 5rem
+  &__container
+    text-align: center
+    z-index: 2
+    &-text
+      font-size: 5.5rem
+      text-align: center
+      font-weight: 600
+      color: white
+      letter-spacing: 5px
+      color: transparent
+      -webkit-text-fill-color: transparent
+      -webkit-text-stroke-width: 2px
+      -webkit-text-stroke-color: white
+      font-family: Adieu
+      font-weight: bold
+      transition: all 1s
+      @media (max-width: 1030px)
+        font-size: 4.5rem
+      @media (max-width: 910px)
+        font-size: 3.5rem
+      @media (max-width: 730px)
+        font-size: 3.2rem
+        -webkit-text-stroke-width: 1.5px
+      @media (max-width: 340px)
+        font-size: 2.9rem
+        letter-spacing: 3px
+      &:last-child
+        margin-top: 5rem
+        @media (max-width: 730px)
+          margin-top: 8rem
+  &__label
+    font-weight: 500
+    color: #fff
+    font-size: 1.9rem
+    position: absolute
+    bottom: 2.4rem
+    right: 4.6rem
+    z-index: 3
+    @media (max-width: 730px)
+      font-size: 1.7rem
+      bottom: 1.4rem
+      right: 2rem
