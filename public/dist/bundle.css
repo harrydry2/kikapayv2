@@ -126,11 +126,12 @@ html, body {
   transform: translateX(-3px); }
 
 video {
-  z-index: 2;
+  z-index: 100;
   width: 38rem;
   height: auto;
   border: 0.6rem solid #1F364D;
-  background: #14233c; }
+  background: #14233c;
+  position: relative; }
   @media (max-width: 730px) {
     video {
       width: 32rem; } }
@@ -431,6 +432,9 @@ img {
       font-family: Adieu;
       font-weight: bold;
       transition: all 1s; }
+      @media not all and (min-resolution: 0.001dpcm) {
+        .front__container-text {
+          -webkit-text-stroke-width: 4px; } }
       @media (max-width: 1030px) {
         .front__container-text {
           font-size: 4.5rem; } }
@@ -484,9 +488,7 @@ img {
         width: 54rem; } }
     .routineOpening__zontal-one {
       position: absolute;
-      left: -190px;
-      width: min-content; }
+      left: -190px; }
     .routineOpening__zontal-two {
       position: absolute;
-      right: -190px;
-      width: min-content; }
+      right: -190px; }

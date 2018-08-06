@@ -20,7 +20,6 @@ html,body
 .twitter-tweet-rendered
   transform: scale(1) !important
   width: 38rem !important
-  // width: 35rem !important
   margin: 0 !important
   @media (max-width: 730px)
     width: 32rem !important
@@ -37,11 +36,12 @@ html,body
 
 // video
 video
-  z-index: 2
+  z-index: 100
   width: 38rem
   height: auto
   border: 0.6rem solid $line
   background: $bg
+  position: relative
   @media (max-width: 730px)
     width: 32rem
   @media (max-width: 350px)
