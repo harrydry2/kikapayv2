@@ -126,7 +126,7 @@ img
   display: none
   @media (max-width: 750px)
     display: block
-    height: 11rem
+    height: 12rem
 
 
 .byhd
@@ -145,7 +145,85 @@ img
     transition: all 0.2s
 
 .ender2
-  height: 11rem
+  height: 8rem
   width: 100%
   background: $bg
   z-index: 2
+
+.ender1a
+  height: 8rem
+  width: 100%
+  background: $bg
+  z-index: 2
+  @media (max-width: 750px)
+    height: 3rem
+
+.share
+  border: 6px solid $line
+  padding: 2rem 3.4rem
+  z-index: 2
+  background: $bg
+  font-size: 1.9rem
+  color: rgba(255, 255, 255, 0.75)
+  font-family: Roboto
+  letter-spacing: 1.4px
+  cursor: pointer
+  transition: all 0.2s
+  &:hover
+    color: white
+
+.mailchimp
+  background: $bg
+  z-index: 2
+  @media (max-width: 750px)
+    width: 100%
+    padding: 0 2.5rem
+  &__header
+    font-size: 1.8rem
+    color: white
+    letter-spacing: 1px
+    font-weight: 500
+    text-align: center
+  &__box
+    margin-top: 3rem
+    display: flex
+    @media (max-width: 750px)
+      flex-direction: column
+      margin-top: 2.6rem
+    &-input
+      padding: 0rem 2rem
+      height: 5.2rem
+      border: 3px solid $line
+      font-size: 1.6rem
+      font-weight: 500
+      background: $bg
+      color: white
+      &::-webkit-input-placeholder
+        color: rgba(255, 255, 255, 0.3)
+      &::-moz-placeholder
+        color: rgba(255, 255, 255, 0.3)
+      @media (max-width: 750px)
+        width: 100%
+    &-button
+      font-size: 1.5rem
+      font-weight: 500
+      background: $bg
+      color: white
+      border: 3px solid $red
+      height: 5.2rem
+      padding: 0rem 3.2rem
+      letter-spacing: 0.4px
+      transition: all 0.2s
+      cursor: pointer
+      margin-left: 4rem
+      @media (max-width: 750px)
+        width: 100%
+        margin: 1.8rem 0 0 0
+        background: $red
+        color: white
+      &:hover
+        background: $red
+        color: white
+
+
+

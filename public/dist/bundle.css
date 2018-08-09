@@ -220,7 +220,7 @@ img {
   @media (max-width: 750px) {
     .ender1 {
       display: block;
-      height: 11rem; } }
+      height: 12rem; } }
 
 .byhd {
   display: none;
@@ -239,10 +239,90 @@ img {
     transition: all 0.2s; }
 
 .ender2 {
-  height: 11rem;
+  height: 8rem;
   width: 100%;
   background: #14233c;
   z-index: 2; }
+
+.ender1a {
+  height: 8rem;
+  width: 100%;
+  background: #14233c;
+  z-index: 2; }
+  @media (max-width: 750px) {
+    .ender1a {
+      height: 3rem; } }
+
+.share {
+  border: 6px solid #1F364D;
+  padding: 2rem 3.4rem;
+  z-index: 2;
+  background: #14233c;
+  font-size: 1.9rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Roboto;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+  transition: all 0.2s; }
+  .share:hover {
+    color: white; }
+
+.mailchimp {
+  background: #14233c;
+  z-index: 2; }
+  @media (max-width: 750px) {
+    .mailchimp {
+      width: 100%;
+      padding: 0 2.5rem; } }
+  .mailchimp__header {
+    font-size: 1.8rem;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center; }
+  .mailchimp__box {
+    margin-top: 3rem;
+    display: flex; }
+    @media (max-width: 750px) {
+      .mailchimp__box {
+        flex-direction: column;
+        margin-top: 2.6rem; } }
+    .mailchimp__box-input {
+      padding: 0rem 2rem;
+      height: 5.2rem;
+      border: 3px solid #1F364D;
+      font-size: 1.6rem;
+      font-weight: 500;
+      background: #14233c;
+      color: white; }
+      .mailchimp__box-input::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.3); }
+      .mailchimp__box-input::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.3); }
+      @media (max-width: 750px) {
+        .mailchimp__box-input {
+          width: 100%; } }
+    .mailchimp__box-button {
+      font-size: 1.5rem;
+      font-weight: 500;
+      background: #14233c;
+      color: white;
+      border: 3px solid #D0021B;
+      height: 5.2rem;
+      padding: 0rem 3.2rem;
+      letter-spacing: 0.4px;
+      transition: all 0.2s;
+      cursor: pointer;
+      margin-left: 4rem; }
+      @media (max-width: 750px) {
+        .mailchimp__box-button {
+          width: 100%;
+          margin: 1.8rem 0 0 0;
+          background: #D0021B;
+          color: white; } }
+      .mailchimp__box-button:hover {
+        background: #D0021B;
+        color: white; }
 
 .jut {
   font-size: 1.9rem;

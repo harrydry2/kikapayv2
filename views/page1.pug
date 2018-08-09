@@ -38,12 +38,21 @@ block content
     .interview
       .interview__icon!=icon('playButton')
       .interview__text
-    +jut("08", "Close")
+    +jut("08", "First Contact")
     img.bamn4(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/closer.png")
-    +jut("08", "End")
+    +jut("09", "The Story Continues")
     video.video1(src=`https://media.giphy.com/media/l0MYuLUvo8GNRrhss/giphy.mp4` playsinline loop muted autoplay)
     .ender1
-    a.byhd(href="https://twitter.com/harrydry" target="_blank") by Harry Dry
+    .ender1a
+    //- a.share(href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fphonemekanyewest.com&text=Yo%20@kanyewest%20phone%20@harrydry.%20He%27s%20got%20ideas%21&hashtags=PhoneMeKanyeWest%2C%20Kanye" targe="_blank") SHARE
+    .mailchimp
+      .mailchimp__header Stay down with the mission
+      form(action='https://phonemekanyewest.us19.list-manage.com/subscribe/post', method='POST' class="mailchimp__box")
+        input(type='hidden', name='u', value='3b9e36df8128ff61a2eb6b004')
+        input(type='hidden', name='id', value='ce0fecc847')
+        input.mailchimp__box-input(placeholder="example@example.com" name="MERGE0" type="email")
+        button.mailchimp__box-button SUBSCRIBE
+    a.byhd(href="https://twitter.com/harrydry" target="_blank") @harrydry
     .ender2
 
 
