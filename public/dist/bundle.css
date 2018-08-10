@@ -199,7 +199,7 @@ img {
   z-index: 2;
   color: white;
   font-size: 1.6rem;
-  padding: 2rem;
+  padding-top: 2rem;
   font-weight: 600;
   transition: all 0.2s; }
   @media (max-width: 700px) {
@@ -274,10 +274,10 @@ img {
         flex-direction: column;
         margin-top: 2.6rem; } }
     .mailchimp__box-input {
-      padding: 0rem 2rem;
+      padding: 0rem 1.8rem;
       height: 5.6rem;
       border: 3px solid #1F364D;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       font-weight: 500;
       background: #14233c;
       color: white; }
@@ -291,14 +291,14 @@ img {
           font-size: 1.5rem;
           height: 5.2rem; } }
     .mailchimp__box-button {
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       font-weight: 500;
       background: #14233c;
       color: white;
       border: 3px solid #D0021B;
       height: 5.6rem;
       padding: 0rem 3.2rem;
-      letter-spacing: 1px;
+      letter-spacing: 0.4px;
       transition: all 0.2s;
       cursor: pointer;
       margin-left: 5rem; }
@@ -488,6 +488,15 @@ img {
     @media (max-width: 730px) {
       .text__center {
         margin: 0 0.6rem; } }
+
+.twitterMob {
+  background: #14233c;
+  padding-top: 0.8rem;
+  z-index: 2;
+  display: none; }
+  @media (max-width: 1000px) {
+    .twitterMob {
+      display: block; } }
 
 .frontOuter {
   position: absolute;
