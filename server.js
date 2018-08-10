@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 const fs = require("fs");
 const app = express();
 
+require("./scripts/tweets");
 const routes = require("./routes/index");
 
 app.set("views", path.join(__dirname, "views"));
