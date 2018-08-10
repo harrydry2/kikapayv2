@@ -443,6 +443,13 @@ img {
   @media (max-width: 1000px) {
     .mobileOpening {
       display: flex; } }
+  .mobileOpening__start {
+    height: 11rem;
+    background: #14233c; }
+  .mobileOpening__end {
+    height: 11rem; }
+  .mobileOpening__middle {
+    height: 5rem; }
 
 .opening {
   display: flex;
@@ -563,9 +570,9 @@ img {
     z-index: 3; }
     @media (max-width: 730px) {
       .front__label {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         bottom: 1.4rem;
-        right: 2rem; } }
+        right: 2.6rem; } }
 
 .routineOpening {
   display: flex;
@@ -592,7 +599,6 @@ img {
       position: absolute;
       right: -190px; }
   .routineOpening__start {
-    height: 11rem;
-    background: #14233c; }
+    height: 11rem; }
   .routineOpening__end {
     height: 11rem; }
