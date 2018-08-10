@@ -9,7 +9,7 @@
   @media (max-width: 900px)
     padding: 5rem 2rem
   &__tier
-    width: 74rem
+    width: 76em
     display: flex
     justify-content: space-between
     align-items: center
@@ -22,13 +22,12 @@
       grid-gap: 3rem 6.6rem
       width: auto
   &__tier1
-    width: 56rem
+    width: 62em
     margin-top: 4rem
     @media (max-width: 900px)
       width: auto
-      margin-top: 3rem
-
-  img
+      margin-top: 1.8rem
+  img, .interview
     cursor: pointer
     opacity: 0.76
     transition: all 0.2s
@@ -63,12 +62,39 @@
 .mail
   width: 16em
   transform: translateY(5px)
-  @media (max-width: 900px)
-    transform: translateY(15px)
+  // @media (max-width: 900px)
+  //   transform: translateY(15px)
 
 .slate
   width: 12em
 
+.drewandmike
+  width: 14em
+  opacity: 0.9 !important
+
 .slate-none
   @media (max-width: 900px)
     display: none
+
+
+.interview
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 2
+  background: $bg
+  padding: 2rem 0
+  position: relative
+  &__icon
+    margin: 0 auto
+    cursor: pointer
+    margin-left: 1.3rem
+  &__text
+    color: white
+    letter-spacing: 0.1rem
+    font-size: 16px
+    position: absolute
+    font-weight: 500
+    right: -47px
+    font-weight: 500
+    transform: translateY(-3px)

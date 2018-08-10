@@ -1,7 +1,7 @@
 import "./sass/styles.sass";
 import { $, $$ } from "./modules/bling";
 
-const mobilePlay = $(".interview__icon");
+const mobilePlay = $(".interview");
 const audio = $(".audio");
 const timer = $(".interview__text");
 
@@ -63,6 +63,8 @@ setInterval(() => {
 
 const frontOuter = $(".frontOuter");
 const front = $(".front");
+const fixedSection = $(".fixedSection");
+console.log(fixedSection);
 const container = $(".container");
 let innerHeight = window.innerHeight;
 frontOuter.style.top = `-${innerHeight}px`;
@@ -71,6 +73,7 @@ window.on("load", () => {
   setTimeout(() => {
     frontOuter.style.transform = `translateY(${innerHeight}px)`;
     container.style.transform = `translateY(${innerHeight}px)`;
+    fixedSection.style.transform = `translateY(${innerHeight}px)`;
   }, 300);
   setTimeout(() => {
     front.style.opacity = "1";
@@ -82,4 +85,16 @@ window.on("resize", () => {
   frontOuter.style.top = `-${innerHeight}px`;
   frontOuter.style.transform = `translateY(${innerHeight}px)`;
   container.style.transform = `translateY(${innerHeight}px)`;
+  fixedSection.style.transform = `translateY(${innerHeight}px)`;
+});
+
+window.on("scroll", () => {
+  if (window.scrollY > innerHeight) {
+    fixedSection.style.position = "fixed";
+    fixedSection.style.transform = "translateY(0)";
+    fixedSection.style.transition = "all 0s";
+  } else {
+    fixedSection.style.position = "relative";
+    fixedSection.style.transform = `translateY(${innerHeight}px)`;
+  }
 });

@@ -160,35 +160,6 @@ img {
     img {
       border: 0.4rem solid #1F364D; } }
 
-.interview {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-  background: #14233c;
-  padding: 2rem 0;
-  position: relative; }
-  .interview__icon {
-    margin: 0 auto;
-    cursor: pointer; }
-  .interview__text {
-    color: white;
-    letter-spacing: 0.1rem;
-    font-size: 16px;
-    position: absolute;
-    right: 33%;
-    font-weight: 500;
-    right: -50px;
-    font-weight: 500;
-    transform: translateY(-3px); }
-
-.playButton > * {
-  transition: all 0.2s;
-  fill: white !important; }
-  .playButton > *:hover {
-    fill: #D0021B !important;
-    transition: all 0.2s; }
-
 .hd {
   display: flex;
   align-items: center;
@@ -253,19 +224,31 @@ img {
     .ender1a {
       height: 3rem; } }
 
-.share {
-  border: 6px solid #1F364D;
-  padding: 2rem 3.4rem;
-  z-index: 2;
-  background: #14233c;
-  font-size: 1.9rem;
-  color: rgba(255, 255, 255, 0.75);
-  font-family: Roboto;
-  letter-spacing: 1.4px;
-  cursor: pointer;
-  transition: all 0.2s; }
-  .share:hover {
-    color: white; }
+.fixedSection {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  transition: transform 1.2s;
+  height: 0;
+  z-index: 1;
+  position: relative; }
+  @media (max-width: 800px) {
+    .fixedSection {
+      display: none; } }
+  .fixedSection__share {
+    background: #14233c;
+    z-index: 300;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1.4px;
+    cursor: pointer;
+    position: relative;
+    top: 2.4rem;
+    right: 4rem;
+    transition: all 0.2s; }
+    .fixedSection__share:hover {
+      color: #D0021B; }
 
 .mailchimp {
   background: #14233c;
@@ -357,7 +340,7 @@ img {
     .press {
       padding: 5rem 2rem; } }
   .press__tier {
-    width: 74rem;
+    width: 76em;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -371,18 +354,18 @@ img {
         grid-gap: 3rem 6.6rem;
         width: auto; } }
   .press__tier1 {
-    width: 56rem;
+    width: 62em;
     margin-top: 4rem; }
     @media (max-width: 900px) {
       .press__tier1 {
         width: auto;
-        margin-top: 3rem; } }
-  .press img {
+        margin-top: 1.8rem; } }
+  .press img, .press .interview {
     cursor: pointer;
     opacity: 0.76;
     transition: all 0.2s;
     border: none; }
-    .press img:hover {
+    .press img:hover, .press .interview:hover {
       opacity: 1; }
 
 .fox {
@@ -412,16 +395,39 @@ img {
 .mail {
   width: 16em;
   transform: translateY(5px); }
-  @media (max-width: 900px) {
-    .mail {
-      transform: translateY(15px); } }
 
 .slate {
   width: 12em; }
 
+.drewandmike {
+  width: 14em;
+  opacity: 0.9 !important; }
+
 @media (max-width: 900px) {
   .slate-none {
     display: none; } }
+
+.interview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background: #14233c;
+  padding: 2rem 0;
+  position: relative; }
+  .interview__icon {
+    margin: 0 auto;
+    cursor: pointer;
+    margin-left: 1.3rem; }
+  .interview__text {
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 500;
+    right: -47px;
+    font-weight: 500;
+    transform: translateY(-3px); }
 
 .mobileOpening {
   display: none;
@@ -536,11 +542,14 @@ img {
             margin-top: 8rem; } }
   .front__label {
     font-weight: 500;
+    text-transform: uppercase;
+    font-family: Roboto;
     color: #fff;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+    letter-spacing: 1.4px;
     position: absolute;
     bottom: 2.4rem;
-    right: 4.6rem;
+    right: 4rem;
     z-index: 3; }
     @media (max-width: 730px) {
       .front__label {

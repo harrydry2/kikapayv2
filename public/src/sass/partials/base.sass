@@ -64,37 +64,6 @@ img
   @media (max-width: 350px)
     border: 0.4rem solid $line
 
-// interview
-.interview
-  display: flex
-  justify-content: center
-  align-items: center
-  z-index: 2
-  background: $bg
-  padding: 2rem 0
-  position: relative
-  &__icon
-    margin: 0 auto
-    cursor: pointer
-  &__text
-    color: white
-    letter-spacing: 0.1rem
-    font-size: 16px
-    position: absolute
-    right: 33%
-    font-weight: 500
-    right: -50px
-    font-weight: 500
-    transform: translateY(-3px)
-
-.playButton
-  & > *
-    transition: all 0.2s
-    fill: white !important
-    &:hover
-      fill: $red !important
-      transition: all 0.2s
-
 // hd
 
 .hd
@@ -158,19 +127,31 @@ img
   @media (max-width: 750px)
     height: 3rem
 
-.share
-  border: 6px solid $line
-  padding: 2rem 3.4rem
-  z-index: 2
-  background: $bg
-  font-size: 1.9rem
-  color: rgba(255, 255, 255, 0.75)
-  font-family: Roboto
-  letter-spacing: 1.4px
-  cursor: pointer
-  transition: all 0.2s
-  &:hover
+.fixedSection
+  display: flex
+  width: 100%
+  justify-content: flex-end
+  transition: transform 1.2s
+  height: 0
+  z-index: 1
+  position: relative
+  @media (max-width: 800px)
+    display: none
+  &__share
+    background: $bg
+    z-index: 300
+    font-size: 1.8rem
+    font-weight: 500
     color: white
+    letter-spacing: 1.4px
+    cursor: pointer
+    position: relative
+    top: 2.4rem
+    right: 4rem
+    transition: all 0.2s
+    &:hover
+      color: $red
+
 
 .mailchimp
   background: $bg
