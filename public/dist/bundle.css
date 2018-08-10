@@ -258,13 +258,16 @@ img {
       width: 100%;
       padding: 0 2.5rem; } }
   .mailchimp__header {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: white;
     letter-spacing: 1px;
     font-weight: 500;
     text-align: center; }
+    @media (max-width: 750px) {
+      .mailchimp__header {
+        font-size: 1.8rem; } }
   .mailchimp__box {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     display: flex; }
     @media (max-width: 750px) {
       .mailchimp__box {
@@ -272,9 +275,9 @@ img {
         margin-top: 2.6rem; } }
     .mailchimp__box-input {
       padding: 0rem 2rem;
-      height: 5.2rem;
+      height: 5.6rem;
       border: 3px solid #1F364D;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       font-weight: 500;
       background: #14233c;
       color: white; }
@@ -284,25 +287,29 @@ img {
         color: rgba(255, 255, 255, 0.3); }
       @media (max-width: 750px) {
         .mailchimp__box-input {
-          width: 100%; } }
+          width: 100%;
+          font-size: 1.5rem;
+          height: 5.2rem; } }
     .mailchimp__box-button {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       font-weight: 500;
       background: #14233c;
       color: white;
       border: 3px solid #D0021B;
-      height: 5.2rem;
+      height: 5.6rem;
       padding: 0rem 3.2rem;
-      letter-spacing: 0.4px;
+      letter-spacing: 1px;
       transition: all 0.2s;
       cursor: pointer;
-      margin-left: 4rem; }
+      margin-left: 5rem; }
       @media (max-width: 750px) {
         .mailchimp__box-button {
           width: 100%;
           margin: 1.8rem 0 0 0;
           background: #D0021B;
-          color: white; } }
+          color: white;
+          font-size: 1.4rem;
+          height: 5.2rem; } }
       .mailchimp__box-button:hover {
         background: #D0021B;
         color: white; }
@@ -449,8 +456,11 @@ img {
   display: flex;
   align-items: center;
   background: #14233c;
-  padding: 1rem 0;
+  padding: 2.6rem 0;
   z-index: 2; }
+  @media (max-width: 730px) {
+    .text {
+      font-size: 1.6rem; } }
   .text h2 {
     font-weight: 600;
     text-align: center;
@@ -581,3 +591,8 @@ img {
     .routineOpening__zontal-two {
       position: absolute;
       right: -190px; }
+  .routineOpening__start {
+    height: 11rem;
+    background: #14233c; }
+  .routineOpening__end {
+    height: 11rem; }
