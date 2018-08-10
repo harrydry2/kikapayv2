@@ -97,23 +97,58 @@ img
     display: block
     height: 12rem
 
+.social
+  display: flex
+  flex-direction: column
+  background: $bg
+  z-index: 2
+  align-items: center
+  padding: 2rem
+
 .byhd
   display: none
   background: $bg
-  z-index: 2
+  z-index: 1
   color: white
   font-size: 1.6rem
-  padding-top: 2rem
-  font-weight: 600
+  font-weight: 500
   transition: all 0.2s
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    border-bottom: 2px solid $red
+    transform: translateY(5px)
   @media (max-width: 700px)
     display: block
-  &:hover
-    color: $red
-    transition: all 0.2s
+
+
+.email
+  margin-top: 1rem
+  background: $bg
+  z-index: 2
+  display: block
+  font-size: 2rem
+  position: relative !important
+  color: white
+  font-weight: 500
+  &:after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    border-bottom: 2px solid $red
+    transform: translateY(5px)
+  @media (max-width: 700px)
+    margin-top: 1.8rem
+    font-size: 1.6rem
 
 .ender2
-  height: 8rem
+  height: 6rem
   width: 100%
   background: $bg
   z-index: 2
