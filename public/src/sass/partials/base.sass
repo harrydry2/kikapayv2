@@ -37,8 +37,6 @@ html,body
 // video
 video
   z-index: 100
-  width: 38rem
-  height: auto
   border: 0.6rem solid $line
   background: $bg
   position: relative
@@ -48,14 +46,32 @@ video
     width: 30rem !important
 
 .video1
+  width: 42rem
+  height: 42rem
+  @media (max-width: 730px)
+    width: 34rem
+    height: 34rem
+  @media (max-width: 350px)
+    width: 30rem !important
+    height: 30rem
+
+.video2
   width: 55rem
+  // height: 42rem
+  @media (max-width: 730px)
+    width: 35rem
+  @media (max-width: 350px)
+    width: 30rem !important
+
+.video3
+  height: 40rem
   @media (max-width: 730px)
     width: 35rem
   @media (max-width: 350px)
     width: 30rem !important
 
 img
-  width: 69.3rem
+  width: 40rem
   border-radius: 4px
   z-index: 2
   border: 0.6rem solid $line
@@ -79,8 +95,6 @@ img
   cursor: pointer
   z-index: 4
   background-color: white
-  @media (max-width: 750px)
-    display: none
   &__img
     border-radius: 100px
     width: 21px
@@ -92,10 +106,8 @@ img
     color: #333
 
 .ender1
-  display: none
-  @media (max-width: 750px)
-    display: block
-    height: 12rem
+  display: block
+  height: 10rem
 
 .social
   display: flex
@@ -103,31 +115,10 @@ img
   background: $bg
   z-index: 2
   align-items: center
-  padding: 2rem
-
-.byhd
-  display: none
-  background: $bg
-  z-index: 1
-  color: white
-  font-size: 1.6rem
-  font-weight: 500
-  transition: all 0.2s
-  position: relative
-  &:after
-    content: ''
-    position: absolute
-    bottom: 0
-    left: 0
-    width: 100%
-    border-bottom: 2px solid $red
-    transform: translateY(5px)
-  @media (max-width: 700px)
-    display: block
-
+  padding-bottom: 2rem
 
 .email
-  margin-top: 1rem
+  margin-top: 2.8rem
   background: $bg
   z-index: 2
   display: block
@@ -144,7 +135,6 @@ img
     border-bottom: 2px solid $red
     transform: translateY(5px)
   @media (max-width: 700px)
-    margin-top: 1.8rem
     font-size: 1.6rem
 
 .ender2
@@ -152,14 +142,6 @@ img
   width: 100%
   background: $bg
   z-index: 2
-
-.ender1a
-  height: 8rem
-  width: 100%
-  background: $bg
-  z-index: 2
-  @media (max-width: 750px)
-    height: 3rem
 
 .fixedSection
   display: flex
@@ -193,58 +175,23 @@ img
   @media (max-width: 750px)
     width: 100%
     padding: 0 2.5rem
-  &__header
-    font-size: 2rem
-    color: white
-    letter-spacing: 1px
+  &__button
+    font-size: 1.5rem
     font-weight: 500
-    text-align: center
+    background: $red
+    color: white
+    border: 3px solid $red
+    height: 5.6rem
+    padding: 0rem 5rem
+    letter-spacing: 0.4px
+    transition: all 0.2s
+    cursor: pointer
+    margin: 2.8rem 0 0 0
     @media (max-width: 750px)
-      font-size: 1.8rem
-  &__box
-    margin-top: 3.5rem
-    display: flex
-    @media (max-width: 750px)
-      flex-direction: column
-      margin-top: 2.6rem
-    &-input
-      padding: 0rem 1.8rem
-      height: 5.6rem
-      border: 3px solid $line
-      font-size: 1.7rem
-      font-weight: 500
-      background: $bg
-      color: white
-      &::-webkit-input-placeholder
-        color: rgba(255, 255, 255, 0.3)
-      &::-moz-placeholder
-        color: rgba(255, 255, 255, 0.3)
-      @media (max-width: 750px)
-        width: 100%
-        font-size: 1.5rem
-        height: 5.2rem
-    &-button
-      font-size: 1.6rem
-      font-weight: 500
-      background: $bg
-      color: white
-      border: 3px solid $red
-      height: 5.6rem
-      padding: 0rem 3.2rem
-      letter-spacing: 0.4px
-      transition: all 0.2s
-      cursor: pointer
-      margin-left: 5rem
-      @media (max-width: 750px)
-        width: 100%
-        margin: 1.8rem 0 0 0
-        background: $red
-        color: white
-        font-size: 1.4rem
-        height: 5.2rem
-      &:hover
-        background: $red
-        color: white
+      width: 100%
+      font-size: 1.4rem
+      height: 5.2rem
+      padding: 0rem
 
 
 

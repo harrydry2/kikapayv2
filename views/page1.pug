@@ -5,54 +5,36 @@ include mixins/press
 include mixins/front
 include mixins/routineOpening
 include mixins/mobileOpening
+include mixins/mobileOpening1
 
 block content
-  audio.audio(preload="auto")
-    source(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/DrewAndMikeShow.mp3" type="audio/mp3")
-  a.hd(href="https://twitter.com/intent/follow?screen_name=harrydry" target="_blank")
-    img.hd__img(src="https://s3.eu-west-2.amazonaws.com/lifeishappening/harrydry.png")
-    .hd__text by harrydry
+  //- a.hd(href="https://twitter.com/intent/follow?screen_name=harrydry" target="_blank")
+  //-   img.hd__img(src="https://s3.eu-west-2.amazonaws.com/lifeishappening/harrydry.png")
+  //-   .hd__text by harrydry
   +front()
-  .fixedSection
-    a.fixedSection__share(href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fphonemekanyewest.com&text=Yo%20@kanyewest%20phone%20@harrydry.%20He%27s%20got%20ideas%21&hashtags=PhoneMeKanyeWest%2C%20Kanye" targe="_blank") SHARE
   .container
     .line
     +mobileOpening()
+    img.bamn1(src="https://s3.amazonaws.com/harrydry/tysonfury/tf1.jpg")
+    +jut("01", "Start Somewhere")
+    video.video1(src="https://s3.amazonaws.com/harrydry/tysonfury/video1.mp4" poster="https://s3.amazonaws.com/harrydry/tysonfury/cover1.jpg" preload="none" playsinline onclick="this.paused ? this.play() : this.pause();")
+    +jut("02", "Work for it")
+    video.video1(src="https://s3.amazonaws.com/harrydry/tysonfury/video2.mp4" poster="https://s3.amazonaws.com/harrydry/tysonfury/cover2.jpg" preload="none" playsinline onclick="this.paused ? this.play() : this.pause();")
+    +jut("03", "Give a boxing lesson")
+    video.video3(src="https://s3.amazonaws.com/harrydry/tysonfury/video4.mp4" poster="https://s3.amazonaws.com/harrydry/tysonfury/cover4.jpg" preload="none" playsinline onclick="this.paused ? this.play() : this.pause();")
+    +jut("04", "Get Robbed")
     +routineOpening()
-    +jut("01", "Idea")
-    .text
-      h2.text__lightbulb 💡
-      h2.text__center 3 Billboards.
-        br
-        |  Phone Me Kanye West.
-        br
-        |  New York. London. Wyoming.
-      h2 💡
-    +jut("02", "New York")
-    img.bamn2(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn1.jpg")
-    +jut("03", "London")
-    img.bamn1(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn2.jpg")
-    +jut("04", "Wyoming")
-    img.bamn3(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/bamn3.jpg")
-    +jut("05", "Press")
-    +press()
-    +jut("06", "Spoke with the CFO")
-    img.bamn4(src="https://s3.eu-west-2.amazonaws.com/yeezydating/bamn/closer.png")
-    +jut("07", "Still Working on Kanye")
-    video.video1(src=`https://media.giphy.com/media/l0MYuLUvo8GNRrhss/giphy.mp4` playsinline loop muted autoplay)
+    +mobileOpening1()
+    +jut("05", "Take it like a champ")
+    img.bamn1(src="https://s3.amazonaws.com/harrydry/tysonfury/milk.jpg")
+    +jut("", "Let The Roadshow Continue")
+    video.video2(src=`https://media.giphy.com/media/vwT2FaFmaPZH2ovPSx/giphy.mp4` playsinline loop muted autoplay)
     .ender1
-    .ender1a
     .mailchimp
-      .mailchimp__header Stay updated with my progress
-      form(action='https://phonemekanyewest.us19.list-manage.com/subscribe/post', method='POST' class="mailchimp__box")
-        input(type='hidden', name='u', value='3b9e36df8128ff61a2eb6b004')
-        input(type='hidden', name='id', value='ce0fecc847')
-        input.mailchimp__box-input(placeholder="example@example.com" name="MERGE0" type="email")
-        button.mailchimp__box-button SUBSCRIBE
+        button.mailchimp__button SHARE WITH @TYSON_FURY
     .social
-      a.byhd(href="https://twitter.com/intent/follow?screen_name=harrydry" target="_blank") @harrydry
-      a.email(href="mailto:harry@yeezy.dating" target="_blank") harry@yeezy.dating
-      a.twitterMob(href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fphonemekanyewest.com&text=Yo%20@kanyewest%20phone%20@harrydry.%20He%27s%20got%20ideas%21&hashtags=PhoneMeKanyeWest%2C%20Kanye" targe="_blank")!=icon("twitter")
+      a.email(href="https://twitter.com/harrydry" target="_blank") #IFTYSONFURYCAN
+      a.email(href="https://twitter.com/harrydry" target="_blank") @harrydry
     .ender2
 
 
