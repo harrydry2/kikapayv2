@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="538px" height="1040px" viewBox="0 0 538 1040" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>Path-9-Copy-2</title>
-    <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="17.0182003%" y1="16.8513553%" x2="101.999998%" y2="100.999999%" id="freddo4">
-            <stop stop-color="#41AAE6" offset="0%"></stop>
-            <stop stop-color="#0079FF" offset="100%"></stop>
+        <linearGradient x1="17.0182003%" y1="16.8513553%" x2="101.999998%" y2="100.999999%" id="mug4">
+            <stop stop-color="#41AAE6" stop-opacity="0.10" offset="0%"></stop>
+            <stop stop-color="#0079FF" stop-opacity="0.10" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.06">
-        <g id="Landing" transform="translate(0.000000, -4156.000000)" fill="url(#freddo4)">
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(0.000000, -4156.000000)" fill="url(#mug4)">
             <path d="M708.287414,4389.31726 C708.645986,4392.19598 708.900171,4394.35497 709.049967,4395.79424 C717.69553,4478.86178 682.465432,4561.47008 578.216504,4606.84559 C313.830034,4721.92277 530.563776,4893.67556 324.657026,5026.00057 C124.523745,5154.6153 -160.932191,4929.6579 -296.540717,4647.75273 C-297.297214,4646.18011 -298.42142,4643.81726 -299.913337,4640.66416 L708.287414,4389.31726 Z" id="Path-9-Copy-2" transform="translate(205.195617, 4726.216652) rotate(284.000000) translate(-205.195617, -4726.216652) "></path>
         </g>
     </g>

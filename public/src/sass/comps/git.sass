@@ -142,7 +142,12 @@
             @media (max-width: 840px)
               margin-left: 0
       &-two
+        textarea
+          font-family: "OpenSans" !important;
         input
+          width: calc((100% - 4rem) / 3)
+          @media (max-width: 840px)
+            width: 100%
           &:nth-child(2)
             margin: 0 2rem
             @media (max-width: 840px)

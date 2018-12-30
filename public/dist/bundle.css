@@ -238,7 +238,7 @@ h2 {
   transition: all 0.4s; }
 
 .threeIcon {
-  width: 100%;
+  width: 30rem;
   height: 100%; }
   @media (max-width: 840px) {
     .threeIcon {
@@ -624,7 +624,7 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 16.4vh auto 38vh auto;
-  max-width: 1240px;
+  max-width: 99.4rem;
   padding: 0rem 4rem 30rem 4rem;
   width: 100%;
   padding: 0rem 4rem; }
@@ -1166,11 +1166,18 @@ h2 {
         @media (max-width: 840px) {
           .git__body-inner-one input:last-child {
             margin-left: 0; } }
-      .git__body-inner-two input:nth-child(2) {
-        margin: 0 2rem; }
+      .git__body-inner-two textarea {
+        font-family: "OpenSans" !important; }
+      .git__body-inner-two input {
+        width: calc((100% - 4rem) / 3); }
         @media (max-width: 840px) {
-          .git__body-inner-two input:nth-child(2) {
-            margin: 1.2rem 0 0 0; } }
+          .git__body-inner-two input {
+            width: 100%; } }
+        .git__body-inner-two input:nth-child(2) {
+          margin: 0 2rem; }
+          @media (max-width: 840px) {
+            .git__body-inner-two input:nth-child(2) {
+              margin: 1.2rem 0 0 0; } }
       .git__body-inner input, .git__body-inner textarea {
         border: none;
         background: rgba(65, 170, 230, 0.07);
@@ -1260,9 +1267,10 @@ h2 {
       margin-top: 1.6rem; }
 
 .three {
-  max-width: 1060px;
-  padding: 40rem 5rem 33rem 5rem;
-  margin: 0 auto; }
+  max-width: 106rem !important;
+  padding: 40rem 5rem 33rem 5rem !important;
+  margin: 0 auto !important;
+  width: 100% !important; }
   @media (max-width: 840px) {
     .three {
       padding: 10rem 2rem;
