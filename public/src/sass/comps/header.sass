@@ -1,0 +1,67 @@
+.header
+  max-width: 1240px
+  padding: 4rem
+  margin: 0 auto
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 100%
+  position: relative
+  z-index: 2
+  width: 100%
+  @media (max-width: 1023px)
+    padding: 2.2rem
+  &__big
+    @media (max-width: 1023px)
+      display: none
+  &__small
+    display: none
+    @media (max-width: 1023px)
+      display: block
+  &__center
+    display: flex
+    align-items: center
+    @media (max-width: 1023px)
+      display: none
+    &-text
+      font-size: 1.6rem
+      text-transform: uppercase
+      font-family: Poppins
+      margin: 0 1.6rem
+      color: $p
+      opacity: 0.54
+      letter-spacing: 0.7px
+      transition: all 0.2s
+      &:hover
+        transition: all 0.2s
+        opacity: 0.8
+  &__icons
+    display: flex
+    transform: translateY(-2px)
+    align-items: center
+    @media (max-width: 1023px)
+      display: none
+    &-twitter
+      margin-right: 2rem
+      transform: translateY(2px)
+  &__menu
+    display: none
+    cursor: pointer
+    @media (max-width: 1023px)
+      display: block
+
+
+.headerWhite
+  .twitterSVG
+    & > *
+      fill: $w
+  .linkedinSVG
+    & > *
+      fill: $w
+
+.menuActive
+  opacity: 1
+
+.menuIcon
+  & > *
+    fill: $p

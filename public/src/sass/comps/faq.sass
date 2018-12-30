@@ -1,0 +1,90 @@
+.faqOuter
+  max-width: 100rem
+  padding: 0rem 4rem
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: 8rem auto 0 auto
+  position: relative
+  z-index: 2
+  @media (max-width: 840px)
+    padding: 0 2rem
+  h1
+.faq
+  width: 100%
+  display: table
+  table-layout: fixed
+  margin-top: 5rem
+  @media (max-width: 840px)
+    margin-top: 3rem
+    display: flex
+    flex-direction: column
+  &__big
+    @media (max-width: 840px)
+      display: none
+  &__small
+    display: none
+    @media (max-width: 840px)
+      display: block
+  &__left
+    display: table-cell
+    vertical-align: top
+    @media (max-width: 840px)
+      display: flex
+      flex-direction: column
+  &__right
+    display: table-cell
+    vertical-align: top
+    @media (max-width: 840px)
+      display: flex
+      flex-direction: column
+  &__inner
+    border: 1px solid #C0CBDA
+    padding: 1.8rem 2rem
+    display: flex
+    flex-direction: column
+    cursor: pointer
+    margin: 2.5rem 1.25rem
+    transition: all 0.2s
+    @media (max-width: 840px)
+      margin: 1.1rem 0rem
+      padding: 1.7rem
+    &-top
+      display: flex
+      justify-content: space-between
+      align-items: center
+    &-bottom
+      font-size: 1.5rem
+      line-height: 1.6
+      margin-right: 1.8rem
+      color: $p
+      position: relative
+      opacity: 0
+      max-height: 0
+      pointer-events: none
+      // transform: scaleY(0)
+      // transform-origin: top
+      transition: all 0.6s ease
+      @media (max-width: 840px)
+        font-size: 1.4rem
+      &-active
+        opacity: 1
+        max-height: 27rem
+        transform: scaleY(1)
+        transition: all 0.6s
+        margin-top: 2rem
+    &-active
+      border: 1px solid $s
+    &-text
+      font-size: 1.7rem
+      @media (max-width: 840px)
+        font-size: 1.5rem
+      color: $p
+      &-active
+        color: $s
+    &-icon
+      transform: translateY(1px)
+      transition: all 0.4s
+      &-active
+        transform: rotate(180deg)
+        transition: all 0.4s

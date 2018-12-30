@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-513.000000, -5100.000000)" fill="#00073D">
+            <g id="GetInTouch" transform="translate(255.000000, 5005.000000)">
+                <g id="Group-7" transform="translate(258.000000, 90.000000)">
+                    <g id="icon-mail" transform="translate(0.000000, 5.000000)">
+                        <path d="M20,4.62 L20,14 C20,15.1045695 19.1045695,16 18,16 L2,16 C0.8954305,16 0,15.1045695 0,14 L0,4.62 L9.55,9.39 C9.83304757,9.53262859 10.1669524,9.53262859 10.45,9.39 L20,4.62 Z" id="Path" fill-opacity="0.4"></path>
+                        <path d="M10,7.38 L0,2.38 L0,2 C0,0.9 0.9,0 2,0 L18,0 C19.1045695,0 20,0.8954305 20,2 L20,2.38 L10,7.38 Z" id="Path" fill-opacity="0.8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

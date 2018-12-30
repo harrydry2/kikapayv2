@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="618px" viewBox="0 0 414 618" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Path-9-Copy-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="20.8202059%" y1="0%" x2="41.132162%" y2="62.497131%" id="mobileGradient">
+            <stop stop-color="#1489CC" offset="0%"></stop>
+            <stop stop-color="#0079FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(0.000000, -49.000000)" fill="url(#mobileGradient)">
+            <path d="M85.8934057,50.5389431 L555.244043,417.23585 C554.850949,418.904456 554.551006,420.155166 554.344215,420.98798 C536.973658,490.944616 487.41574,556.110409 395.622571,596.04471 C307.030868,634.586224 271.139491,669.559626 257.269658,703.719387 C256.828254,704.806512 256.171522,706.661321 255.299461,709.283814 L-169.48375,377.406797 L85.8934057,50.5389431 Z" id="Path-9-Copy-2" transform="translate(192.880146, 379.911378) rotate(232.000000) translate(-192.880146, -379.911378) "></path>
+        </g>
+    </g>
+</svg>

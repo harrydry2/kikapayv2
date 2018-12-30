@@ -1,0 +1,10 @@
+extends main
+
+include mixins/header
+include mixins/footer
+include mixins/mobileMenu
+
+block content
+  +mobileMenu()
+  +header("customers")
+  +footer()

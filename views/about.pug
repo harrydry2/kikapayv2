@@ -1,0 +1,31 @@
+extends main
+
+include mixins/header
+include mixins/footer
+include mixins/lines
+include mixins/tSpec
+include mixins/mobileMenu
+
+block content
+  +mobileMenu()
+  +lines()
+  .aboutSVG
+    .aboutSVG__1!=icon("about1")
+    .aboutSVG__2!=icon("about2")
+  +header("about")
+  .abouttop
+    h1.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Our mission is to create a world of fairer, faster payments.
+    h3.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") We work hard to revolutionise the way customers pay for goods and services. We created KiKa because we believe that individuals and businesses should have secure control over their money and data.
+  .teamOuter
+    .team
+      h1.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Meet the team
+      h3.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") KiKa has been developed by payments and implementation experts, and brought to life by a dedicated team.
+      .tSpecGrid
+        +tSpec("teamImage", "Phillip Godden", "Head of Product", "philip-godden-4901011", true, "Philip is an accountant by training with 20 years of experience in leading large corporate change programmes driven by new technology solutions.  Prior to launching KiKa, Philip worked in Ernst and Young’s Technology Advisory practice advising clients such as JCB and GE Energy.")
+        +tSpec("teamImage", "Chris Moore", "Head of Commercial", "philip-godden-4901011", true, "Chris is a payments expert with 20 years of experience in strategic sourcing and payments. He has previously served as Business Development Director for TSYS, a leading payments company, where he delivered more than 15 payment solutions projects for leading global banks. Prior to his time at TSYS, Chris was the head of Strategic Sourcing at Lloyds Banking Group and was recognised as an industry leader in setting up complex payments services contracts.")
+        +tSpec("teamImage", "Matt Hirlinger", "Commercial and Finance", "philip-godden-4901011", true, "Philip is an accountant by training with 20 years of experience in leading large corporate change programmes driven by new technology solutions.  Prior to launching KiKa, Philip worked in Ernst and Young’s Technology Advisory practice advising clients such as JCB and GE Energy.")
+        +tSpec("teamImage", "Alex D-W", "Legal Support", "philip-godden-4901011", true, "Chris is a payments expert with 20 years of experience in strategic sourcing and payments. He has previously served as Business Development Director for TSYS, a leading payments company, where he delivered more than 15 payment solutions projects for leading global banks. Prior to his time at TSYS, Chris was the head of Strategic Sourcing at Lloyds Banking Group and was recognised as an industry leader in setting up complex payments services contracts.")
+        +tSpec("teamImage", "Matilda Donnachie", "Sales Specialist", "philip-godden-4901011", false, "harry dry")
+        +tSpec("teamImage", "Amy Clayton", "Product Manager", "philip-godden-4901011", false, "harry dry")
+    .aboutSVG__3!=icon("about3")
+  +footer()

@@ -1,0 +1,26 @@
+extends main
+
+include mixins/header
+include mixins/footer
+include mixins/lines
+include mixins/button
+include mixins/mobileMenu
+
+block content
+  +lines()
+  +mobileMenu()
+  .partnersSVG
+    .partnersSVG__1!=icon("partners1")
+    .partnersSVG__2!=icon("partners2")
+  +header("partners")
+  .partners
+    .partners__center
+      .partners__left
+        .partners__left-box
+          h2.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Partnerships
+          h4.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") If you’re interested in partnering with KiKa, don’t hesitate to get in touch. We’d love to hear from you.
+          a(href="/#git")
+            +button("Get in touch")
+      .partners__right.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+        img(src="https://s3.amazonaws.com/kikapay/partnersImg.png", alt="KiKa Partnership")
+  +footer()

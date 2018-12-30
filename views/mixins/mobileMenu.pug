@@ -1,0 +1,15 @@
+mixin mobileMenu()
+  .mMenu
+    .mMenu__svg!=icon("mobileMenuSVG")
+    .mMenu__cross!=icon("cross")
+    .mMenu__center
+      a.mMenu__center-text(href="/") Merchants
+      a.mMenu__center-text(href="/about") About
+      a.mMenu__center-text(href="/customers") Customers
+      a.mMenu__center-text(href="/partners") Partners
+      a.mMenu__center-text.flipPhone(href="/#faq") FAQ
+    .mMenu__bottom
+      a.mMenu__bottom-left.flipPhone(href="/#git") Get in touch
+      .mMenu__bottom-right.headerWhite
+        a(href="https://twitter.com/kikapay" target="_blank")!=icon("twitter")
+        a(href="https://www.linkedin.com/company/kikapay/" target="_blank")!=icon("linkedin")

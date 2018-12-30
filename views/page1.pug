@@ -1,40 +1,38 @@
 extends main
 
-include mixins/jut
-include mixins/press
-include mixins/front
-include mixins/routineOpening
-include mixins/mobileOpening
-include mixins/mobileOpening1
+include mixins/header
+include mixins/footer
+include mixins/lines
+include mixins/button
+include mixins/threeSection
+include mixins/wide
+include mixins/faq
+include mixins/git
+include mixins/hiw
+include mixins/mobileMenu
 
 block content
-  //- a.hd(href="https://twitter.com/intent/follow?screen_name=harrydry" target="_blank")
-  //-   img.hd__img(src="https://s3.eu-west-2.amazonaws.com/lifeishappening/harrydry.png")
-  //-   .hd__text by harrydry
-  +front()
-  .container
-    .line
-    +mobileOpening()
-    img.bamn1(src="https://s3.amazonaws.com/harrydry/tysonfury/tf1.jpg")
-    +jut("01", "Start Somewhere")
-    video.video1(src="https://s3.amazonaws.com/harrydry/tysonfury/video1.mp4" poster="https://s3.amazonaws.com/harrydry/tysonfury/cover1.jpg" preload="none" playsinline onclick="this.paused ? this.play() : this.pause();")
-    +jut("02", "Work for it")
-    video.video1(src="https://s3.amazonaws.com/harrydry/tysonfury/video2.mp4" poster="https://s3.amazonaws.com/harrydry/tysonfury/cover2.jpg" preload="none" playsinline onclick="this.paused ? this.play() : this.pause();")
-    +jut("03", "Give a boxing lesson")
-    video.video3(src="https://s3.amazonaws.com/harrydry/tysonfury/video4.mp4" poster="https://s3.amazonaws.com/harrydry/tysonfury/cover4.jpg" preload="none" playsinline onclick="this.paused ? this.play() : this.pause();")
-    +jut("04", "Get Robbed")
-    +routineOpening()
-    +mobileOpening1()
-    +jut("05", "Take it like a champ")
-    img.bamn1(src="https://s3.amazonaws.com/harrydry/tysonfury/milk.jpg")
-    +jut("", "Let The Roadshow Continue")
-    video.video2(src=`https://media.giphy.com/media/vwT2FaFmaPZH2ovPSx/giphy.mp4` playsinline loop muted autoplay)
-    .ender1
-    .mailchimp
-        button.mailchimp__button SHARE WITH @TYSON_FURY
-    .social
-      a.email(href="https://twitter.com/harrydry" target="_blank") #IFTYSONFURYCAN
-      a.email(href="https://twitter.com/harrydry" target="_blank") @harrydry
-    .ender2
+  +mobileMenu()
+  .merchantsSVG.merchantsSVG__o1
+    .merchantsSVG__1!=icon("merchants1")
+  +lines()
+  +header("merchants")
+  .merchants
+    .merchants__left
+      h1.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") faster, fairer payments
+      h3.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Direct from bank payments that are convenient and secure for merchants and their customers
+      +button("Get in touch")
+    .merchants__right.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+      img(src="https://s3.amazonaws.com/kikapay/iPhoneWhite.png", alt="")
+  +hiw
+  .merchantsSVG
+    .merchantsSVG__3!=icon("merchants3")
+  +threeSection
+  .merchantsSVG
+    .merchantsSVG__4!=icon("merchants4")
+  +faq
+  +wide
+  +git
+  +footer()
 
 

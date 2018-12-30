@@ -1,0 +1,38 @@
+include button
+
+mixin git()
+  .gitOuter#git
+    .git
+      h1.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Get in touch
+      .git__contact
+        .git__contact-inner.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+          !=icon("mail")
+          .git__contact-mail1 info@kikapay.com
+        .git__contact-inner.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+          !=icon("phone")
+          .git__contact-mail1 +44 7463 686633
+      form(action="/sendmail" method="POST")
+        .git__radio.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+          .git__radio-text Are you a
+          li.radioClick
+            input(type="radio" name="radio" value="merchant" id="merchant" checked)
+            .check
+            label(for="merchant") Merchant
+          li.radioClick
+            input(type="radio" name="radio" value="partner" id="partner")
+            .check
+            label(for="partner") Partner
+        .git__body
+          .git__body-inner.git__body-inner-one
+            input.animate.fade-in(type="text" name="firstName" placeholder="First Name *" data-animate data-animation="animate fade-in" data-animation-classes="visible")
+            input.animate.fade-in(type="text" name="lastName" placeholder="Last Name *" data-animate data-animation="animate fade-in" data-animation-classes="visible")
+          .git__body-inner.git__body-inner-two
+            input.animate.fade-in(type="text" name="email" placeholder="Email *" data-animate data-animation="animate fade-in" data-animation-classes="visible")
+            input.animate.fade-in(type="text" name="phone" placeholder="Phone Number" data-animate data-animation="animate fade-in" data-animation-classes="visible")
+            input.animate.fade-in(type="text" name="company" placeholder="Company *" data-animate data-animation="animate fade-in" data-animation-classes="visible")
+          .git__body-inner.git__body-inner-two
+            textarea.animate.fade-in(name="enquiry" placeholder="How can we help? *" data-animate data-animation="animate fade-in" data-animation-classes="visible")
+        .git__submit.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+          .button Send
+            span.icons__buttonArrow!=icon("buttonArrow")
+

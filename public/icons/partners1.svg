@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="partners1" viewBox="0 0 467 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Path-9-Copy-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="42.2640113%" y2="93.5946038%" id="partners1">
+            <stop stop-color="#7C54FF" stop-opacity="0.32" offset="0%"></stop>
+            <stop stop-color="#7C54FF" stop-opacity="0.26" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partners" transform="translate(-973.000000, 0.000000)" fill="url(#partners1)">
+            <path d="M1381.73216,-106.037282 C1373.20877,-140.746001 1375.25376,-134.251396 1387.86713,-86.5534671 C1406.78718,-15.0065737 1386.36172,58.9371408 1297.33424,97.6682419 C1108.21572,179.943598 1232.09149,299.071274 1134.24424,398.218966 C1131.78463,400.711267 1128.21434,403.756638 1123.53337,407.355079 L1050.26916,-53.4721461 L1381.73216,-106.037282 Z" id="Path-9-Copy-2" transform="translate(1222.299817, 139.694718) rotate(99.000000) translate(-1222.299817, -139.694718) "></path>
+        </g>
+    </g>
+</svg>

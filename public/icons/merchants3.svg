@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1356 1587" class="merchants3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Path-9-Copy-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.0182003%" y1="16.8513553%" x2="101.999998%" y2="100.999999%" id="freddo3">
+            <stop stop-color="#41AAE6" offset="0%"></stop>
+            <stop stop-color="#0079FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.06">
+        <g id="Landing" transform="translate(-84.000000, -1871.000000)" fill="url(#freddo3)">
+            <g id="threeSection" transform="translate(7.000000, 1623.000000)">
+                <path d="M775.272049,432.720998 C1200.54952,573.304568 927.496451,993.892328 1321.97269,983.144994 C1538.01865,977.258915 1735.32372,1171.11096 1789.29559,1382.61471 C1789.74611,1384.38022 1790.39935,1387.03113 1791.25529,1390.56745 L429.643494,1729.86689 C424.0631,1730.0965 420.607511,1729.98047 419.276726,1729.5188 C363.990608,1710.3392 246.724433,1641.64146 222.711008,1587.70559 C161.135056,1449.40161 213.786989,1124.1835 111.203197,955.914888 C7.63949101,786.038922 -75.4382741,625.744505 1.13735615,514.464911 C118.87897,343.362969 461.149764,328.881894 775.272049,432.720998 Z" id="Path-9-Copy-2" transform="translate(881.270882, 1048.643987) rotate(284.000000) translate(-881.270882, -1048.643987) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

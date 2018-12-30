@@ -1,0 +1,15 @@
+mixin tSpec(img, name, role, linkedin, ifBio, bio)
+  .tSpec.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible" data-animation-offset="0.60")
+    img(src=`https://s3.amazonaws.com/kikapay/${img}.png` class="tSpec__img", alt=`${teamImage}`)
+    .tSpec__bottomouter
+      .tSpec__bottom
+        .tSpec__bottom-left
+          .tSpec__bottom-left-header=name
+          .tSpec__bottom-left-text=role
+        a(href=`https://www.linkedin.com/in/${linkedin}` target="_blank").tSpec__bottom-right!=icon("linkedinTeam")
+      .tSpec__bottom1=bio
+    .tSpec__bio-mt
+    if (ifBio)
+      .tSpec__bio
+        .tSpec__bio-text Read Bio
+        .tSpec__bio-chevron!=icon("chevronDown")

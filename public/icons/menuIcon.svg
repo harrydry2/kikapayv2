@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="21px" class="menuIcon" viewBox="0 0 27 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-1215.000000, -58.000000)" fill="" fill-rule="nonzero">
+            <path d="M1216.5,58 L1240.5,58 C1241.32843,58 1242,58.6715729 1242,59.5 C1242,60.3284271 1241.32843,61 1240.5,61 L1216.5,61 C1215.67157,61 1215,60.3284271 1215,59.5 C1215,58.6715729 1215.67157,58 1216.5,58 Z M1216.5,67 L1240.5,67 C1241.32843,67 1242,67.6715729 1242,68.5 C1242,69.3284271 1241.32843,70 1240.5,70 L1216.5,70 C1215.67157,70 1215,69.3284271 1215,68.5 C1215,67.6715729 1215.67157,67 1216.5,67 Z M1216.5,76 L1240.5,76 C1241.32843,76 1242,76.6715729 1242,77.5 C1242,78.3284271 1241.32843,79 1240.5,79 L1216.5,79 C1215.67157,79 1215,78.3284271 1215,77.5 C1215,76.6715729 1215.67157,76 1216.5,76 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

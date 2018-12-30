@@ -1,0 +1,20 @@
+mixin faqInner(h1, text)
+  .faq__inner.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible")
+    .faq__inner-top
+      .faq__inner-text=h1
+      .faq__inner-icon!=icon("chevronFAQ")
+    .faq__inner-bottom=text
+
+
+
+mixin faq()
+  .faqOuter#faq
+    h1.faq__big.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") Frequently asked questions
+    h1.faq__small.animate.fade-in(data-animate data-animation="animate fade-in" data-animation-classes="visible") FAQ's
+    .faq
+      .faq__left
+        +faqInner("What is Open Banking", "Open Banking is a set of payment regulations that came into effect in January 2018. Open Banking is a secure way to give providers access to your financial data. The goal of Open Banking is to transfer the ownership of financial data from banks to customers. With Open Banking, customers can see a holistic view of their financial position and make payments directly from their bank account, through licensed providers such as KiKa.")
+        +faqInner("Do you need a license?", "We provide Account Information and Payment Initiation Services - to do this we must be awarded a license by the Financial Conduct Authority. Rest assured that KiKa is carefully regulated for your security.")
+      .faq__right
+        +faqInner("How can I use KiKa?", "We provide Account Information and Payment Initiation Services - to do this we must be awarded a license by the Financial Conduct Authority. Rest assured that KiKa is carefully regulated for your security.")
+        +faqInner("What do you charge to use KiKa?", "We provide Account Information and Payment Initiation Services - to do this we must be awarded a license by the Financial Conduct Authority. Rest assured that KiKa is carefully regulated for your security.")

@@ -1,197 +1,97 @@
 html,body
-  font-family: "Circular"
+  font-family: "OpenSans"
   font-size: 10px
-  font-weight: 400
-  background: $bg
-  height: 100%
-  min-height: 100%
-  @media (max-width: 730px)
+  background: $w
+  color: $p
+  @media (max-width: 1023px)
     font-size: 10px
 
+.noScroll
+  overflow: hidden
 
-.container
-  display: flex
-  flex-direction: column
-  align-items: center
-  position: relative
-  min-height: 100%
-  transition: all 1.2s
+a
+  transition: all 0.4s
+  &:hover
+    opacity: 0.95
+    transition: all 0.4s
 
-.twitter-tweet-rendered
-  transform: scale(1) !important
-  width: 38rem !important
-  margin: 0 !important
-  @media (max-width: 730px)
-    width: 32rem !important
-  @media (max-width: 350px)
-    width: 30rem !important
+h1
+  font-size: 4.7rem
+  font-family: Poppins
+  font-weight: bold
+  color: $p
+  line-height: 1.4
+  @media (max-width: 840px)
+    font-size: 2.7rem
 
-.line
-  background: $line
-  width: 6px
-  height: 100%
-  position: absolute
-  left: 50%
-  transform: translateX(-3px)
+h3
+  font-size: 1.9rem
+  font-family: OpenSans
+  color: $p
+  line-height: 2
+  @media (max-width: 840px)
+    font-size: 1.6rem
+    line-height: 1.9
 
-// video
-video
-  z-index: 100
-  border: 0.6rem solid $line
-  background: $bg
-  position: relative
-  @media (max-width: 730px)
-    width: 32rem
-  @media (max-width: 350px)
-    width: 30rem !important
-
-.video1
-  width: 42rem
-  height: 42rem
-  @media (max-width: 730px)
-    width: 34rem
-    height: 34rem
-  @media (max-width: 350px)
-    width: 30rem !important
-    height: 30rem
-
-.video2
-  width: 55rem
-  // height: 42rem
-  @media (max-width: 730px)
-    width: 35rem
-  @media (max-width: 350px)
-    width: 30rem !important
-
-.video3
-  height: 40rem
-  @media (max-width: 730px)
-    width: 35rem
-  @media (max-width: 350px)
-    width: 30rem !important
-
-img
-  width: 40rem
-  border-radius: 4px
-  z-index: 2
-  border: 0.6rem solid $line
-  @media (max-width: 700px)
-    width: 94%
-  @media (max-width: 350px)
-    border: 0.4rem solid $line
-
-// hd
-
-.hd
-  display: flex
-  align-items: center
-  position: fixed
-  right: 0
-  bottom: 0
-  border-top-left-radius: 5px
-  padding: 7px 12px 7px 12px
-  border-top: 1px solid #efefef
-  border-left: 1px solid #efefef
-  cursor: pointer
-  z-index: 4
-  background-color: white
-  &__img
-    border-radius: 100px
-    width: 21px
-    height: 21px
-    margin-right: 8px
-    border: none !important
-  &__text
-    font-size: 1.4rem
-    color: #333
-
-.ender1
-  display: block
-  height: 10rem
-
-.social
-  display: flex
-  flex-direction: column
-  background: $bg
-  z-index: 2
-  align-items: center
-  padding-bottom: 2rem
-
-.email
-  margin-top: 2.8rem
-  background: $bg
-  z-index: 2
-  display: block
-  font-size: 2rem
-  position: relative !important
-  color: white
-  font-weight: 500
-  &:after
-    content: ''
-    position: absolute
-    bottom: 0
-    left: 0
-    width: 100%
-    border-bottom: 2px solid $red
-    transform: translateY(5px)
-  @media (max-width: 700px)
+h4
+  font-size: 1.8rem
+  font-family: OpenSans
+  color: $p
+  line-height: 1.9
+  @media (max-width: 840px)
     font-size: 1.6rem
 
-.ender2
-  height: 6rem
-  width: 100%
-  background: $bg
-  z-index: 2
 
-.fixedSection
+h2
+  font-size: 4rem
+  font-family: Poppins
+  font-weight: bold
+  color: $p
+  @media (max-width: 840px)
+    font-size: 2.7rem
+
+.button
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  font-family: OpenSans
+  font-weight: bold
+  font-size: 1.4rem
+  border-radius: 100px
+  background-color: $s
+  padding: 0.9rem 1.7rem 1.1rem 1.9rem
+  transition: all 0.6s
+  cursor: pointer
+  text-transform: uppercase
+  color: $w
+  &__submit
+    border-radius: 4px
+    padding: 0.9rem 2.4rem 1.1rem 2.6rem
+  &:hover
+    opacity: 0.9
+    transition: all 0.6s
+
+.lines
+  bottom: 0
   display: flex
+  height: 100%
+  left: 0
+  position: fixed
+  right: 0
+  top: 0
   width: 100%
-  justify-content: flex-end
-  transition: transform 1.2s
-  height: 0
-  z-index: 1
-  position: relative
-  @media (max-width: 800px)
-    display: none
-  &__share
-    background: $bg
-    z-index: 300
-    font-size: 1.8rem
-    font-weight: 500
-    color: white
-    letter-spacing: 1.4px
-    cursor: pointer
-    position: relative
-    top: 2.4rem
-    right: 4rem
-    transition: all 0.2s
-    &:hover
-      color: $red
+  z-index: 0
+  &__item
+    border-right: 1px solid rgba(0,7,61,.06)
+    height: 100%
+    width: 20%
 
+.animate.fade-in.visible
+  opacity: 1 !important
+  transition: opacity 1.2s
+  transform: translate(0, 0)
 
-.mailchimp
-  background: $bg
-  z-index: 2
-  @media (max-width: 750px)
-    width: 100%
-    padding: 0 2.5rem
-  &__button
-    font-size: 1.5rem
-    font-weight: 500
-    background: $red
-    color: white
-    border: 3px solid $red
-    height: 5.6rem
-    padding: 0rem 5rem
-    letter-spacing: 0.4px
-    transition: all 0.2s
-    cursor: pointer
-    margin: 2.8rem 0 0 0
-    @media (max-width: 750px)
-      width: 100%
-      font-size: 1.4rem
-      height: 5.2rem
-      padding: 0rem
-
-
-
+.animate.fade-in
+  opacity: 0 !important
+  transition: opacity 1.2s
+  transform: translate(0, 0rem)
