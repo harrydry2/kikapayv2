@@ -11,6 +11,7 @@ function mobileMenu() {
       if ($(".merchants")) {
         mobileMenu.classList.remove("mMenu__active");
         $("body").classList.remove("noScroll");
+        $("html").classList.remove("noScroll");
       }
     });
   });
@@ -18,11 +19,13 @@ function mobileMenu() {
   mobileMenuOpen.on("click", () => {
     mobileMenu.classList.add("mMenu__active");
     $("body").classList.add("noScroll");
+    $("html").classList.add("noScroll");
   });
 
   mobileCross.on("click", () => {
     mobileMenu.classList.remove("mMenu__active");
     $("body").classList.remove("noScroll");
+    $("html").classList.remove("noScroll");
   });
 }
 

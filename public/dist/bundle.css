@@ -88,7 +88,9 @@ html, body {
       font-size: 10px; } }
 
 .noScroll {
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  height: 100%; }
 
 a {
   transition: all 0.4s; }
@@ -582,7 +584,9 @@ h2 {
         @media (max-width: 840px) {
           .partners__left-box h4 {
             width: 100%;
-            text-align: center; } }
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 1.8; } }
   .partners__right {
     position: absolute;
     width: 58.9rem;
@@ -630,7 +634,8 @@ h2 {
   padding: 0rem 4rem; }
   @media (max-width: 840px) {
     .abouttop {
-      padding: 0 2rem; } }
+      padding: 0 2rem;
+      margin: 14vh auto 34vh auto; } }
   .abouttop h1 {
     text-align: center;
     position: relative;
@@ -913,10 +918,19 @@ h2 {
       .wide__extra {
         display: flex;
         flex-direction: column; } }
-    @media (max-width: 840px) {
-      .wide__extra figure {
-        height: 20rem;
-        width: 100%; } }
+    .wide__extra figure {
+      transform: skewX(-12deg);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: -3.5%; }
+      @media (max-width: 840px) {
+        .wide__extra figure {
+          height: 20rem;
+          width: 100%;
+          position: static;
+          left: auto;
+          transform: skewX(0deg); } }
     .wide__extra img {
       height: 100%;
       position: absolute;
@@ -926,8 +940,7 @@ h2 {
       @media (max-width: 840px) {
         .wide__extra img {
           width: 100%;
-          right: 0;
-          height: auto; } }
+          right: 0; } }
     .wide__extra-active {
       opacity: 1 !important;
       transition: all 0.35s; }
@@ -941,13 +954,14 @@ h2 {
     cursor: pointer;
     transition: all 0.2s;
     box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25); }
-    .wide__handle:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 16px -2px rgba(50, 50, 93, 0.28);
-      transition: all 0.2s; }
-      .wide__handle:hover .wideRight > *, .wide__handle:hover .wideLeft > * {
-        transition: all 0.2s;
-        fill: #00073D; }
+    @media (min-width: 840px) {
+      .wide__handle:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px -2px rgba(50, 50, 93, 0.28);
+        transition: all 0.2s; }
+        .wide__handle:hover .wideRight > *, .wide__handle:hover .wideLeft > * {
+          transition: all 0.2s;
+          fill: #00073D; } }
     .wide__handle span {
       top: 15px;
       left: 12px;
@@ -969,7 +983,7 @@ h2 {
   padding-left: 50%; }
   @media (max-width: 840px) {
     .stories {
-      padding: 3rem 2rem;
+      padding: 3.6rem 2.4rem;
       width: 100%; } }
   .stories ul {
     padding: 7rem 0;
@@ -984,14 +998,14 @@ h2 {
       padding-right: 6rem;
       width: 25%;
       opacity: 0;
-      transition: all 0.2s; }
+      transition: all 0.2s;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
       @media (max-width: 840px) {
         .stories ul .wide__right {
           padding: 0rem;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          flex-direction: column; } }
+          width: 100%; } }
       .stories ul .wide__right-active {
         opacity: 1;
         transition: all 0.2s; }
@@ -1223,14 +1237,17 @@ h2 {
       display: flex; } }
   .mMenu__svg {
     position: absolute;
-    bottom: -0.5%;
+    bottom: -18%;
     z-index: -1; }
     @media (max-width: 414px) {
       .mMenu__svg {
         display: block; } }
     @media (max-height: 667px) {
       .mMenu__svg {
-        bottom: -10%; } }
+        bottom: -20%; } }
+    @media (max-height: 640px) {
+      .mMenu__svg {
+        bottom: -30%; } }
   .mMenu__cross {
     position: absolute;
     top: 2.4rem;
@@ -1267,10 +1284,10 @@ h2 {
       margin-top: 1.6rem; }
 
 .three {
-  max-width: 106rem !important;
-  padding: 40rem 5rem 33rem 5rem !important;
-  margin: 0 auto !important;
-  width: 100% !important; }
+  max-width: 106rem;
+  padding: 40rem 5rem 33rem 5rem;
+  margin: 0 auto;
+  width: 100%; }
   @media (max-width: 840px) {
     .three {
       padding: 10rem 2rem;

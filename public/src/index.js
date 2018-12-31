@@ -16,7 +16,7 @@ import {
 var animate = new Animate({
   target: "[data-animate]",
   animatedClass: "visible",
-  offset: [0.73],
+  offset: [0.66],
   delay: 0,
   remove: false,
   reverse: true,
@@ -56,6 +56,5 @@ if ($(".aboutSVG")) {
 }
 
 if (window.innerWidth <= 1023) {
-  console.log(window.innerWidth);
   mobileMenu();
 }
