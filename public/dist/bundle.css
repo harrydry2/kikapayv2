@@ -700,13 +700,13 @@ h2 {
   .tSpec__bottomouter {
     position: absolute;
     width: 100%;
-    padding: 3rem 2.6rem 10rem 2.6rem;
     background: white;
     transition: all 0.4s;
-    top: 28.9rem; }
+    padding: 2rem 2.6rem 10rem 2.6rem;
+    top: 29.2rem; }
     @media (max-width: 600px) {
       .tSpec__bottomouter {
-        padding: 1.9rem 1.4rem 6rem 1.4rem; } }
+        padding: 1.6rem 1.4rem 6rem 1.4rem; } }
     .tSpec__bottomouter-active {
       transition: all 0.4s;
       top: 0; }
@@ -725,17 +725,17 @@ h2 {
     align-items: center;
     background: #ffffff; }
     .tSpec__bottom-left-header {
-      font-size: 2.6rem;
+      font-size: 2rem;
       font-family: Poppins; }
       @media (max-width: 840px) {
         .tSpec__bottom-left-header {
           font-size: 2rem; } }
     .tSpec__bottom-left-text {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       margin-top: 1rem; }
       @media (max-width: 840px) {
         .tSpec__bottom-left-text {
-          font-size: 1.5rem; } }
+          font-size: 1.4rem; } }
     .tSpec__bottom-right {
       padding: 1.7rem;
       border: 1px solid rgba(0, 7, 61, 0.2); }
@@ -757,7 +757,7 @@ h2 {
     z-index: 2;
     border-top: 1px solid rgba(0, 7, 61, 0.2); }
     .tSpec__bio-mt {
-      margin-top: 11.3rem; }
+      margin-top: 10rem; }
       @media (max-width: 600px) {
         .tSpec__bio-mt {
           margin-top: 9.4rem; } }
