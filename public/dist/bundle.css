@@ -592,6 +592,8 @@ h2 {
     width: 58.9rem;
     height: 39.3rem;
     right: -30%; }
+    .partners__right img {
+      height: 100%; }
     @media (max-width: 1100px) {
       .partners__right {
         right: -27%; } }
