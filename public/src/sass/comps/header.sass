@@ -2,8 +2,10 @@
   z-index: 2
   width: 100%
   position: fixed
-  background-color: white
+  // background-color: white
   top: 0
+  z-index: 100
+  transition: all .4s ease
   &__inner
     max-width: 1240px
     margin: 0 auto
@@ -12,7 +14,7 @@
     align-items: center
     justify-content: space-between
     @media (max-width: 1023px)
-      padding: 2.2rem
+      padding: 1.9rem 2.2rem
   &__big
     @media (max-width: 1023px)
       display: none
@@ -67,3 +69,8 @@
 .menuIcon
   & > *
     fill: $p
+
+.headerScroll
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.035)
+  transition: all .4s ease
+  background-color: white

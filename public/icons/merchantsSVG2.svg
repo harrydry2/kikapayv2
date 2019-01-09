@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="796px" height="602px" viewBox="0 0 796 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Path-9-Copy-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.0182003%" y1="16.8513553%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#41AAE6" offset="0%"></stop>
+            <stop stop-color="#0079FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.06">
+        <g id="Landing" transform="translate(-644.000000, -2984.000000)" fill="url(#linearGradient-1)">
+            <path d="M1182.87497,2886.91804 C1185.50446,2890.90289 1187.47531,2893.89963 1188.78752,2895.90826 C1366.86296,3168.49273 1523.12103,3572.07075 1367.66499,3647.97973 C1139.60602,3759.34064 983.532242,3683.16968 852.18251,3474.84378 C813.995182,3414.27716 708.856924,3111.60816 714.445396,3013.37699 C714.548237,3011.56931 714.723473,3008.34288 714.971103,3003.69769 L1182.87497,2886.91804 Z" id="Path-9-Copy-2" transform="translate(1072.785249, 3293.024233) scale(-1, 1) rotate(284.000000) translate(-1072.785249, -3293.024233) "></path>
+        </g>
+    </g>
+</svg>

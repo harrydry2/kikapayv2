@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1050px" height="1334px" viewBox="0 0 1050 1334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Path-9-Copy-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.0182003%" y1="16.8513553%" x2="101.999998%" y2="100.999999%" id="merchants3Alt">
+            <stop stop-color="#41AAE6" offset="0%"></stop>
+            <stop stop-color="#0079FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.06">
+        <g id="Landing" transform="translate(0.000000, -1091.000000)" fill="url(#merchants3Alt)">
+            <g id="threeSection" transform="translate(-599.000000, 920.000000)">
+                <path d="M828.347889,123.277725 C1114.7326,213.744997 1002.95761,521.563162 1268.60056,514.647119 C1534.24351,507.731076 1757.81214,929.331274 1428.57477,1066.17013 C1099.33741,1203.00898 1369.23339,1407.2411 1112.82013,1564.58946 C856.40687,1721.93781 487.52358,1434.24436 325.107885,1085.64144 C283.642225,996.641117 187.665627,785.957836 202.893252,666.050151 C247.310289,316.294742 467.183399,34.768413 828.347889,123.277725 Z" id="Path-9-Copy-2" transform="translate(897.167067, 857.782590) rotate(284.000000) translate(-897.167067, -857.782590) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

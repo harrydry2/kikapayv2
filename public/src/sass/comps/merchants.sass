@@ -1,6 +1,7 @@
 .merchantsSVG
   position: absolute
   height: 100%
+  // top: 0
   width: 100%
   &__o1
     overflow-x: hidden
@@ -13,12 +14,33 @@
     left: calc(55% + 10px)
     @media (max-width: 1120px)
       left: calc(60%)
+  &__o2
+    overflow-x: hidden
+    height: 200%
+  &__2
+    position: absolute
+    top: 11%
+    right: -5%
+    @media (max-width: 1300px)
+      right: -10%
+    @media (max-width: 1200px)
+      right: -15%
+    @media (max-width: 840px)
+      top: 20%
   &__3
     position: absolute
+    display: none
     top: 0
     right: 0
     @media (max-width: 840px)
       top: -5%
+      display: block
+  &__3Wide
+    position: absolute
+    top: -5%
+    left: 0
+    @media (max-width: 1060px)
+      display: none
   &__4
     position: absolute
     top: 20%
@@ -32,7 +54,7 @@
 .merchants
   display: flex
   max-width: 1240px
-  padding: 0rem 4rem 30rem 4rem
+  padding: 12rem 4rem 30rem 4rem
   margin: 0 auto
   justify-content: space-between
   position: relative
@@ -40,7 +62,7 @@
     padding: 0 2rem
     flex-direction: column
     justify-content: center
-    margin: 3rem 0 5rem 0
+    margin: 9.6rem 0 5rem 0
   &__left
     margin-top: 15%
     @media (max-width: 1000px)

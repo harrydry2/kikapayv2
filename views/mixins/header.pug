@@ -14,7 +14,7 @@ mixin header(activePage)
         a.header__center-text(href=`/customers` class=activeCustomers) Customers
         a.header__center-text(href=`/partners` class=activePartners) Partners
       .header__icons
-        a.header__icons-twitter(href="https://twitter.com/kikapay" target="_blank" class="headerWhite ")!=icon("twitter")
-        a.header__icons-linkedin(href="https://www.linkedin.com/company/kikapay/" target="_blank" class="headerWhite ")!=icon("linkedin")
+        a.header__icons-twitter(href="https://twitter.com/kikapay" target="_blank" class=`${headerWhite}`)!=icon("twitter")
+        a.header__icons-linkedin(href="https://www.linkedin.com/company/kikapay/" target="_blank" class=`${headerWhite}`)!=icon("linkedin")
       .header__menu!=icon("menuIcon")
 

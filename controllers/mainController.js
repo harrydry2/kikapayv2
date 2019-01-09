@@ -36,7 +36,7 @@ exports.sendmail = async (req, res) => {
   });
   const mailOptions = {
     from: `${firstName} ${lastName}<harry.dry@kikapay.com>`, // sender address
-    to: "harry.dry@kikapay.com", // list of receivers
+    to: "amy.clayton@kikapay.com", // list of receivers
     subject: "Website Enquiry", // Subject line
     html: `
       Website Enquiry from *${radio}*<br>
