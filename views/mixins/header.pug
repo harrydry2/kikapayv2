@@ -1,19 +1,20 @@
 mixin header(activePage)
   .header
-    a.header__big(href="/")!=icon("KiKaLogo")
-    a.header__small(href="/")!=icon("mobileLogo")
-    .header__center
-      - const headerWhite = activePage === "merchants" ? "headerWhite" : ""
-      - const activeMerchants = activePage === "merchants" ? "menuActive" : ""
-      - const activeAbout = activePage === "about" ? "menuActive" : ""
-      - const activeCustomers = activePage === "customers" ? "menuActive" : ""
-      - const activePartners = activePage === "partners" ? "menuActive" : ""
-      a.header__center-text(href=`/` class=activeMerchants) Merchants
-      a.header__center-text(href=`/about` class=activeAbout) About
-      a.header__center-text(href=`/customers` class=activeCustomers) Customers
-      a.header__center-text(href=`/partners` class=activePartners) Partners
-    .header__icons
-      a.header__icons-twitter(href="https://twitter.com/kikapay" target="_blank" class=headerWhite)!=icon("twitter")
-      a.header__icons-linkedin(href="https://www.linkedin.com/company/kikapay/" target="_blank" class=headerWhite)!=icon("linkedin")
-    .header__menu!=icon("menuIcon")
+    .header__inner
+      a.header__big(href="/")!=icon("KiKaLogo")
+      a.header__small(href="/")!=icon("mobileLogo")
+      .header__center
+        - const headerWhite = activePage === "merchants" ? "headerWhite" : ""
+        - const activeMerchants = activePage === "merchants" ? "menuActive" : ""
+        - const activeAbout = activePage === "about" ? "menuActive" : ""
+        - const activeCustomers = activePage === "customers" ? "menuActive" : ""
+        - const activePartners = activePage === "partners" ? "menuActive" : ""
+        a.header__center-text(href=`/` class=activeMerchants) Merchants
+        a.header__center-text(href=`/about` class=activeAbout) About
+        a.header__center-text(href=`/customers` class=activeCustomers) Customers
+        a.header__center-text(href=`/partners` class=activePartners) Partners
+      .header__icons
+        a.header__icons-twitter(href="https://twitter.com/kikapay" target="_blank" class=`${headerWhite}`)!=icon("twitter")
+        a.header__icons-linkedin(href="https://www.linkedin.com/company/kikapay/" target="_blank" class=`${headerWhite}`)!=icon("linkedin")
+      .header__menu!=icon("menuIcon")
 

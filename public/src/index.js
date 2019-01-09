@@ -10,13 +10,14 @@ import {
   radioFunction,
   wideFunction,
   formSubmit,
-  zenscrollFunction
+  zenscrollFunction,
+  zenscrollFunction2
 } from "./modules/merchant";
 
 var animate = new Animate({
   target: "[data-animate]",
   animatedClass: "visible",
-  offset: [0.66],
+  offset: [0.4],
   delay: 0,
   remove: false,
   reverse: true,
@@ -49,6 +50,7 @@ if ($(".merchants")) {
   radioFunction();
   formSubmit();
   zenscrollFunction();
+  zenscrollFunction2();
 }
 
 if ($(".aboutSVG")) {

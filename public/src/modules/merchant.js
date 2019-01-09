@@ -99,12 +99,17 @@ function formSubmit() {
 
 function zenscrollFunction() {
   const button = $(".merchants__left > .button");
-  console.log(button);
   const git = $(".gitOuter");
   button.on("click", () => {
-    console.log(button);
     zenscroll.to(git);
-    console.log("hellow");
+  });
+}
+
+function zenscrollFunction2() {
+  const button = $(".specialGIT");
+  const git = $(".gitOuter");
+  button.on("click", () => {
+    zenscroll.to(git);
   });
 }
 
@@ -113,5 +118,6 @@ module.exports = {
   radioFunction,
   wideFunction,
   formSubmit,
-  zenscrollFunction
+  zenscrollFunction,
+  zenscrollFunction2
 };
